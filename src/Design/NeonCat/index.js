@@ -102,7 +102,7 @@ tl.add(animateNotes(notesG1)).add(animateNotes(notesG2), ">0.05").add(animateNot
   
 <div className="base-cat-container">
 <div className="cat-container">
-  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 783.55 354.91">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1000 500">
     <g id="bongo-cat">
       <g className="head">
         <path d="M280.4,221l383.8,62.6a171.4,171.4,0,0,0-9.2-40.5,174,174,0,0,0-28.7-50.5,163.3,163.3,0,0,0,3.2-73.8c-11.6-1.9-42,14.2-44.5,17.5-19.6-24-88.5-52.7-153.7-48.1A78.8,78.8,0,0,0,398,67.1c-9.8,2.9-19,29.7-19.4,33.7a320,320,0,0,0-31.7,23.6c-14,11.8-28.9,24.4-42.5,44.3A173,173,0,0,0,280.4,221Z"></path>
