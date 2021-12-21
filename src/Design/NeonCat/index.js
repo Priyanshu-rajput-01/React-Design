@@ -1,10 +1,8 @@
-
-import './Second.css';
+import './style.css';
 import { useRef, useEffect } from "react";
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Bg from "./main";
 gsap.registerPlugin(ScrollTrigger);
 gsap.core.globals('ScrollTrigger', ScrollTrigger);
 function Second() {
