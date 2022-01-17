@@ -1,3 +1,10 @@
+# React-Design
+
+## Description
+
+This repository is dedicated to react code snipits or component that can help in improving the design of a website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
