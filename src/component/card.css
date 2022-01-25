@@ -1,0 +1,98 @@
+body {
+    background-color: #eee
+}
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.kaban-profile-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.kaban-badge span {
+    background-color: rgba(26, 145, 241, 0.18);
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #36c7eb;
+    justify-content: center;
+    align-items: center
+}
+
+.kaban-text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.kaban-text2 {
+    color: #ff6d33
+}
+.kaban-text3 {
+    color: #316bdf
+}
+.kaban-tab-bg{
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/* .bucket-buttons {
+    visibility: hidden;
+}
+
+.bucket-buttons:hover {
+    visibility: block;
+} */
+.font-icon-kaban:hover{
+    color: #f0483c;
+}
+.font-icon-kaban-edit:hover{
+    color: #226af0;
+}
+.task-kadan-card{
+    background: rgba(150, 241, 235, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.task-kadan-add-button{
+    background: rgba(150, 241, 235, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.task-kadan-add-button:hover{
+    background: rgba(150, 241, 235, 0.8);
+    color:rgba(209, 162, 62, 0.8);
+}
+.kaban-row{
+    flex-shrink: 0;
+    /* width: 100%; */
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+

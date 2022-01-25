@@ -25,10 +25,9 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import EditIcon from '@material-ui/icons/Edit';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { Cancel, AddCircle } from '@material-ui/icons';
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
-import './style.css';
-
+// import DatePicker from 'react-datepicker';
+// import 'react-datepicker/dist/react-datepicker.css';
+// import './style.css';
 function AddTask(props) {
   const [task, setTask] = useState({
     name: '',
@@ -300,7 +299,7 @@ function AddTask(props) {
               Start Date
             </label>
             <div>
-              <DatePicker
+              {/* <DatePicker
                 selected={task.start_date}
                 onChange={(date) => {
                   setTask({ ...task, start_date: date });
@@ -311,7 +310,7 @@ function AddTask(props) {
                   boxShadow: 'inset 0px 1px 2px 1px rgba(38, 39, 40, 0.2)',
                   border: 'none',
                 }}
-              />
+              /> */}
             </div>
           </div>
 
@@ -327,7 +326,7 @@ function AddTask(props) {
             </label>
 
             <div>
-              <DatePicker
+              {/* <DatePicker
                 minDate={task.start_date}
                 selected={task.due_date}
                 onChange={(date) => {
@@ -339,7 +338,7 @@ function AddTask(props) {
                   boxShadow: 'inset 0px 1px 2px 1px rgba(38, 39, 40, 0.2)',
                   border: 'none',
                 }}
-              />
+              /> */}
             </div>
           </div>
         </div>
