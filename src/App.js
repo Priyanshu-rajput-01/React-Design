@@ -20,7 +20,7 @@ function App() {
   return (
 
   <>
-    <Clock/>
+    <Second/>
   </>
   );
 }
